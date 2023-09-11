@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/jquery-3.4.1.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Graphic_Card.png"/>
+    <script src="script.js"></script>
+    <title>TLO</title>
+</head>
+<body style="background-color: #282a2a;">  
+    
+    <div class="wrapper">
+        <nav class="navbar fixed-top">
+            <ul class="nav-ul">
+                <li class="nav-item">
+                    <a href="index.html"><img id="logo" src="Images/Graphic_Card.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html" onclick=About()>About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick=Hardware()>Hardware</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick=Software()>Software</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick=GameDesign()>Game Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Connect.html" onclick=Connect()>Connect</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="main">
+    <div style="width: 100%; background-color: #282a2a; padding-top: 5%; align-items: center; " class="wrapper">
+
+        <img style="height: 100px; width: auto; display: block; margin-left: auto; margin-right: auto;" src="Images/Graphic_Card.png">
+        <div class="container" style="margin-top: 5%;">
+            <div class="row">
+                <div class="col-6 hidden quote">
+                    <h1 style="font-size: 45px;">
+                        <i>
+                            "As we become more dependent on technology,
+                            understanding it becomes more essential for everyone"
+                        </i>
+                    </h1>
+                </div>
+                <div class="col-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/X1xviTz5-xY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <p class="description hidden"><i>Meet the Team:</i></p>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-4">
+                    <img style="width: 75%; height: auto;" src="Images/Josh.png">
+                    <p class="description1" style="text-align: left;">Game Design</p>
+                    <p class="about">Joshua Wingert is an aspiring game dev that does some minor projects in his freetime, however his main career is marine biology.</p>
+                </div>
+
+                <div class="col-4">
+                    <img style="width: 75%; height: auto;" src="Images/Xander.png">
+                    <p class="description1" style="text-align: left;">Software</p>
+                    <p class="about">Xander Wise is planning to be a cyber security expert and will be pursuing a masters degree in computer science. He has experience mostly with Java, C, and C++. His favorite program he has written is the gravity simulation code he built for a space simulation.</p>
+                </div>
+
+                <div class="col-4">
+                    <img style="width: 75%; height: auto;" src="Images/Yash.png">
+                    <p class="description1" style="text-align: left;">Software</p>
+                    <p class="about">Yash Mehta is learning python for data analysis and learning javascript for Web Development.</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img style="width: 75%; height: auto;" src="Images/Andrew.png">
+                    <p class="description1" style="text-align: left;">Hardware</p>
+                    <p class="about">My name is Andrew, I have a decent amount of experience with computers as I have worked around them for well over a decade, took multiple classes, and have built or repaired enough computers to loose count.</p>
+                </div>
+
+                <div class="col-4">
+                    <img style="width: 75%; height: auto;" src="Images/Erik.png">
+                    <p class="description1" style="text-align: left;">Hardware</p>
+                    <p class="about">Hello my name is Eric and I have a great amount of experience with computer hardware since I have built 3 computers.</p>
+                </div>
+
+                <div class="col-4">
+                    <img style="width: 75%; height: auto;" src="Images/Ethan.png">
+                    <p class="description1" style="text-align: left;">Game Design</p>
+                    <p class="about">Ethan has been learning code for the sake of designing games and hopes to make a career in the computer science field</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form target="_blank" action="https://formsubmit.co/mehtayash2005@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="https://tlos-ca726.web.app/About.html">
+        <div class="form-group" style="background-color: #282a2a;">
+            <textarea type='textarea' name='message' id='Comment' placeholder='Contact Us Now' cols='169' rows='10'></textarea>
+            <button type='submit' class='button1'>Submit</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
