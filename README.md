@@ -1,2 +1,2 @@
 # SCP
-Capstone Project for TLO
+Capstone Project for Technology Learning Outreach
